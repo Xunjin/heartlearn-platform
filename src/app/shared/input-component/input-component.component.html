@@ -1,0 +1,6 @@
+<div class="inputbox">
+  <fa-icon class="icon" *ngIf="icon !== undefined" [icon]="['fas', icon]">
+  </fa-icon>
+  <input [ngClass]="{'input': true, 'input-with-icon': icon !== undefined}" [type]="type" [(ngModel)]="model"
+    [placeholder]="placeholder">
+</div>
