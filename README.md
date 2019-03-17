@@ -45,6 +45,6 @@ Usaremos o [Style Guide](https://angular.io/guide/styleguide) do próprio Angula
 
 ## Participar
 
-Só dar fork e fazer seu PR, mas se quiser entrar no time lembre-se do nosso [Discord](https://discord.me/he4rt)
+Só dar fork e fazer seu PR, mas se quiser entrar no time lembre-se do nosso [Discord](https://discord.me/he4rt).
 
 
