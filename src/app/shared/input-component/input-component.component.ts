@@ -12,7 +12,6 @@ export class InputComponentComponent implements OnInit {
   @Input() iconName: string;
   @Input() type: string;
   @Input() placeholder: string;
-  @Input() inputstyle: string;
   model: string;
   icon: string;
 
