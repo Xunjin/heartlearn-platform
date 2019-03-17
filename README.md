@@ -1,11 +1,12 @@
 # HeartlearningPlataform
+A princípio entre em nosso [Discord](https://discord.me/he4rt).
 
-Projeto baseado no [Angular CLI](https://github.com/angular/angular-cli) versão 7.3.5.
+Este projeto é baseado no [Angular CLI](https://github.com/angular/angular-cli) versão 7.3.5.
 
 ## Requisitos
 Primariamente instale o Angular CLI globalmente `npm install -g @angular/cli`;
 
-Posteriormente rode comando `npm install` no seu Prompt/Terminal para instalar as dependencias do projeto.
+Posteriormente rode comando `npm install` no seu Prompt/Terminal para instalar as dependências do projeto.
 
 ## Ambiente de Desenvolvimento
 
@@ -13,7 +14,7 @@ Rode `ng serve --open` para abrir o ambiente de desenvolvimento/servidor no seu 
 
 ## Code scaffolding (facilita na criação de componentes e afins)
 
-Rode `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module` dependendo da sua necessidade.
+Rode `ng generate component component-name` para gerar um novo componente. Você também pode utilizar `ng generate directive|pipe|service|class|guard|interface|enum|module` dependendo da sua necessidade.
 
 ## Build
 
@@ -34,3 +35,5 @@ Você pode usar o comando `ng help` para ter acesso aos comandos or ir até a pa
 Documentação sobre o [Angular](https://angular.io/docs).
 
 Usaremos o [Style Guide](https://angular.io/guide/styleguide) do próprio Angular, fique atento.
+
+
