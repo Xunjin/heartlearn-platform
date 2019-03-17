@@ -6,9 +6,10 @@
     <h1 class="main-h1">
       Heart Learning Platform
     </h1>
-    <input class="main-input" type="text" placeholder="Usuário">
-    <input class="main-input" type="password" placeholder="Senha">
-    <button-primary buttoncolor="#8E7CCC" buttontext="Entrar"></button-primary>
+    <input class="main-input" type="text" [(ngModel)]="username" placeholder="Usuário">
+    <input class="main-input" type="password" [(ngModel)]="password" placeholder="Senha">
+    <button-primary (onClick)="onLogin($event)">
+    </button-primary>
     <p class="main-forgotpassword">Esqueceu a senha?</p>
     <p class="main-copyright">Desenvolvido por He4rt Devs</p>
   </main>
