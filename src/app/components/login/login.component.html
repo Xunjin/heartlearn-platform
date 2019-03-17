@@ -8,8 +8,8 @@
     </h1>
     <input class="main-input" type="text" [(ngModel)]="username" placeholder="Usuário">
     <input class="main-input" type="password" [(ngModel)]="password" placeholder="Senha">
-    <button-primary (onClick)="onLogin($event)">
-    </button-primary>
+    <button-component buttonstyle="button-primary" buttontext="Entrar" (onClick)="onLogin($event)">
+    </button-component>
     <p class="main-forgotpassword">Esqueceu a senha?</p>
     <p class="main-copyright">Desenvolvido com 💜 por He4rt Devs</p>
   </main>
