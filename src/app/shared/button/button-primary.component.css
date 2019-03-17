@@ -1,0 +1,8 @@
+.button-primary {
+    border: 1px solid;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    color: white;
+    margin: 15px 0px;
+}
