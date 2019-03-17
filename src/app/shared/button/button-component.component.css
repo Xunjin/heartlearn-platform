@@ -1,0 +1,19 @@
+.button {
+    --primary-color: #8E7CCC;
+    --primary-textcolor: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 15px 0px;
+    transition: 0.4s;
+}
+.button-primary:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.button-primary {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--primary-textcolor);
+}
