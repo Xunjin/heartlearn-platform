@@ -6,6 +6,8 @@
   <img src="https://heartdevs.com/wp-content/uploads/2018/12/logo.png" width="215"><br>
   <a href="https://discord.me/he4rt" target="_blank">
 </h3>
+
+## Angular
 Este projeto é baseado no [Angular CLI](https://github.com/angular/angular-cli) versão 7.3.5.
 
 ## Requisitos
