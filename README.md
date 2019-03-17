@@ -1,6 +1,11 @@
-# HeartlearningPlataform
-A princípio entre em nosso [Discord](https://discord.me/he4rt).
+<h1 align="center">
+  Heart Learning Plataform
+</h1>
 
+<h3 align="center">
+  <img src="https://heartdevs.com/wp-content/uploads/2018/12/logo.png" width="215"><br>
+  <a href="https://discord.me/he4rt" target="_blank">
+</h3>
 Este projeto é baseado no [Angular CLI](https://github.com/angular/angular-cli) versão 7.3.5.
 
 ## Requisitos
@@ -35,5 +40,9 @@ Você pode usar o comando `ng help` para ter acesso aos comandos or ir até a pa
 Documentação sobre o [Angular](https://angular.io/docs).
 
 Usaremos o [Style Guide](https://angular.io/guide/styleguide) do próprio Angular, fique atento.
+
+## Participar
+
+Só dar fork e fazer seu PR, mas se quiser entrar no time lembre-se do nosso [Discord](https://discord.me/he4rt)
 
 
