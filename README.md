@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <img src="https://heartdevs.com/wp-content/uploads/2018/12/logo.png" width="215"><br>
-  <a href="https://discord.me/he4rt" target="_blank">
+  <a href="https://discord.me/he4rt" target="_blank"></a>
 </h3>
 
 ## Angular
