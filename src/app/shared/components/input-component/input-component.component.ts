@@ -3,7 +3,7 @@ import * as faIcons from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
-  selector: 'input-component',
+  selector: 'app-input-component',
   templateUrl: './input-component.component.html',
   styleUrls: ['./input-component.component.css']
 })
