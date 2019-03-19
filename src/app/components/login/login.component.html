@@ -6,8 +6,9 @@
     <h1 class="main-h1">
       Heart Learning Platform
     </h1>
-    <input class="main-input" type="text" [(ngModel)]="username" placeholder="Usuário">
-    <input class="main-input" type="password" [(ngModel)]="password" placeholder="Senha">
+
+    <input-component iconName="faUser" type="text" placeholder="Usuário"></input-component>
+    <input-component iconName="faKey" type="password" placeholder="Senha"></input-component>
     <button-component buttonstyle="button-primary" buttontext="Entrar" (onClick)="onLogin($event)">
     </button-component>
     <p class="main-forgotpassword">Esqueceu a senha?</p>
