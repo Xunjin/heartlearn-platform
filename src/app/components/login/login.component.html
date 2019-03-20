@@ -6,11 +6,12 @@
     <h1 class="main-h1">
       Heart Learning Platform
     </h1>
-    <input class="main-input" type="text" [(ngModel)]="username" placeholder="Usuário">
-    <input class="main-input" type="password" [(ngModel)]="password" placeholder="Senha">
-    <button-primary (onClick)="onLogin($event)">
-    </button-primary>
+
+    <shared-input iconName="faUser" type="text" placeholder="Usuário" appOpacityOnHover></shared-input>
+    <shared-input iconName="faKey" type="password" placeholder="Senha" appOpacityOnHover></shared-input>
+    <shared-button buttonstyle="button-primary" buttontext="Entrar" (click)="onLogin($event)">
+    </shared-button>
     <p class="main-forgotpassword">Esqueceu a senha?</p>
-    <p class="main-copyright">Desenvolvido por He4rt Devs</p>
+    <p class="main-copyright">Desenvolvido com 💜 por He4rt Devs</p>
   </main>
 </div>
