@@ -1,0 +1,19 @@
+.header-centralized {
+    margin-top: 30px;
+    text-align: center;
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
