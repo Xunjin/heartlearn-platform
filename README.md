@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  <img src="https://heartdevs.com/wp-content/uploads/2018/12/logo.png" width="215"><br>
+  <img src="src/assets/images/heart-logo.png" width="215"><br>
   <a href="https://discord.me/he4rt" target="_blank">Nosso Discord</a>
 </h3>
 
