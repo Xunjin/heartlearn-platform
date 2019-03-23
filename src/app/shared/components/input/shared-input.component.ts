@@ -3,11 +3,11 @@ import * as faIcons from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 @Component({
-  selector: 'input-component',
-  templateUrl: './input-component.component.html',
-  styleUrls: ['./input-component.component.css']
+  selector: 'shared-input',
+  templateUrl: './shared-input.component.html',
+  styleUrls: ['./shared-input.component.css']
 })
-export class InputComponentComponent implements OnInit {
+export class SharedInputComponent implements OnInit {
 
   @Input() iconName: string;
   @Input() type: string;

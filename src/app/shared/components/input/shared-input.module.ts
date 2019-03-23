@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { InputComponentComponent } from './input-component.component';
+import { SharedInputComponent } from './shared-input.component';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
-  declarations: [InputComponentComponent],
+  declarations: [SharedInputComponent],
   imports: [
     CommonModule,
     FormsModule,
     FontAwesomeModule
   ],
   exports: [
-    InputComponentComponent
+    SharedInputComponent
   ]
 })
-export class InputComponentModule { }
+export class SharedInputModule { }

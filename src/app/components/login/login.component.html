@@ -6,11 +6,10 @@
     <h1 class="main-h1">
       Heart Learning Platform
     </h1>
-
-    <input-component iconName="faUser" type="text" placeholder="Usuário"></input-component>
-    <input-component iconName="faKey" type="password" placeholder="Senha"></input-component>
-    <button-component buttonstyle="button-primary" buttontext="Entrar" (onClick)="onLogin($event)">
-    </button-component>
+    <shared-input iconName="faUser" type="text" placeholder="Usuário" appOpacityOnHover></shared-input>
+    <shared-input iconName="faKey" type="password" placeholder="Senha" appOpacityOnHover></shared-input>
+    <shared-button buttonstyle="button-primary" buttontext="Entrar" (click)="onLogin($event)">
+    </shared-button>
     <p class="main-forgotpassword">Esqueceu a senha?</p>
     <p class="main-copyright">Desenvolvido com 💜 por He4rt Devs</p>
   </main>
