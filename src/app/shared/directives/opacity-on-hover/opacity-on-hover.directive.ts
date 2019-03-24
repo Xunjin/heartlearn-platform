@@ -16,7 +16,6 @@ export class OpacityOnHoverDirective {
 
   @HostListener('mouseleave')
   opacityOff() {
-    this.render.setStyle(this.el.nativeElement,
-       'filter', 'opacity(100%)');
-}
+    this.render.setStyle(this.el.nativeElement, 'filter', 'opacity(100%)');
+  }
 }
